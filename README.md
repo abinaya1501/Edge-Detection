@@ -64,7 +64,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('strawberry.jpg')  # Replace with your image path
+image = cv2.imread('abinayaa.jpg')  # Replace with your image path
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Original Image
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
@@ -72,10 +72,7 @@ plt.title('Original Image')
 plt.axis('off')
 ```
 ## OUTPUT:
-<img width="587" height="350" alt="image" src="https://github.com/user-attachments/assets/e6b2e517-49b5-4c42-a2f8-5c40e0295f23" />
-
-
-
+<img width="243" height="487" alt="image" src="https://github.com/user-attachments/assets/f60feed9-08db-43e8-95ee-aae2d3d975f1" />
 
 
 ### Sobel Edge Detector:
@@ -88,7 +85,8 @@ plt.title('Sobel Edge Detection')
 plt.axis('off')
 ```
 ## OUTPUT:
-<img width="593" height="347" alt="image" src="https://github.com/user-attachments/assets/1dacf07b-22c7-4e80-9dfa-3c6a8e4f4edc" />
+<img width="252" height="470" alt="image" src="https://github.com/user-attachments/assets/b93c06cd-a8b7-46da-a0b2-9f1af9e4f404" />
+
 
 
 
@@ -100,8 +98,7 @@ plt.title('Laplacian Edge Detection')
 plt.axis('off')
 ```
 ## OUTPUT:
-<img width="615" height="345" alt="image" src="https://github.com/user-attachments/assets/44aaec08-a098-4d81-a5e6-075ffc0679f6" />
-
+<img width="282" height="472" alt="image" src="https://github.com/user-attachments/assets/48d98330-7eed-4be6-944d-759c8a4b47cc" />
 
 
 
@@ -114,8 +111,7 @@ plt.title('Canny Edge Detection')
 plt.axis('off')  
 ```
 ## OUTPUT:
-<img width="596" height="337" alt="image" src="https://github.com/user-attachments/assets/7afac2ca-f276-46f1-bc9d-de296034b27d" />
-
+<img width="246" height="462" alt="image" src="https://github.com/user-attachments/assets/6071f370-919d-49a6-bd52-0844a0602cd4" />
 
 
 ## Result
